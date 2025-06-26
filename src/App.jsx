@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import { LoadingScreen } from './components/LoadingScreen'
+// The Navigation Bar for both the mobile and desktop mode
 import { Navbar } from './components/Navbar'
 import { MobileMenu } from './components/MobileMenu'
+// The style, containing the animations
 import './index.css'
+// The Sections of the react application
 import { Home } from './components/sections/Home'
 import { About } from './components/sections/About'
 import { Projects } from './components/sections/Projects'
